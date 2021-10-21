@@ -1,26 +1,13 @@
-cmake_minimum_required (VERSION 3.8)
-project(calculator)
+cmake_minimum_required(VERSION "3.16.3")
 
+project(ne_dushite_pls)
+set(CMAKE_CXX_STANDARD 17)
 
-set(BIN_NAME calculator)
-set(LIB_NAME calcLib)
+add_library(lib calculator.cpp calculator.h)
 
+add_executable(${PROJECT_NAME} main.cpp)
 
-file(
-    GLOB SRC_FILES
-    main.cpp
-)
-
-file(
-    GLOB LIB_FILES
-    calculator.cpp
-    calculator.h
-)
+target_link_libraries(${PROJECT_NAME} PUBLIC lib)
 
 
 
-add_executable(${BIN_NAME} ${SRC_FILES})
-
-add_library(${LIB_NAME} STATIC ${LIB_FILES})
-
-target_link_libraries(${BIN_NAME} ${LIB_NAME})
