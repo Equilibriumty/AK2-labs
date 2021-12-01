@@ -8,29 +8,29 @@ List of valid keys:
 + -f, --my_file, saving file;
 
 ### Commands usage
-`./main`
+`./Lab3`
 
-`./main -h`
+`./Lab3 -h`
 
-`./main --help`
+`./Lab3 --help`
 
-`./main --verbose=4`
+`./Lab3 --verbose=4`
 
-`./main -v 1`
+`./Lab3 -v 1`
 
-`./main --my_list=3,4,5,6`
+`./Lab3 --my_list=3,4,5,6`
 
-`./main -l 1,2,3,4`
+`./Lab3 -l 1,2,3,4`
 
-`./main --my_file="some_text"`
+`./Lab3 --my_file="some_text"`
 
-`./main -f "some_text"`
+`./Lab3 -f "some_text"`
 
-`./main --my_boolean=0`
+`./Lab3 --my_boolean=0`
 
-`./main -b=1`
+`./Lab3 -b=1`
 
 ### In case of wrong key
-`./main -k --notify`
-`./main: invalid option -- 'k'`
-`./main: unrecognized option '--notify'`
+`./Lab3 -k --notify`
+`./Lab3: invalid option -- 'k'`
+`./Lab3: unrecognized option '--notify'`
