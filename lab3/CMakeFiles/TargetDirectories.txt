@@ -1,0 +1,3 @@
+/home/equilibrium/dev/ak2-labs/lab3/CMakeFiles/rebuild_cache.dir
+/home/equilibrium/dev/ak2-labs/lab3/CMakeFiles/edit_cache.dir
+/home/equilibrium/dev/ak2-labs/lab3/CMakeFiles/Lab3.dir

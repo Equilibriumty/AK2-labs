@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/equilibrium/dev/ak2-labs/lab3/main.cpp
+iostream
+-
+getopt.h
+-
+string.h
+-
+stdlib.h
+-
+
